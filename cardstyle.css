@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a8dadc;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 180px;
+    background-color: #1d3557;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 10px 20px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+.selfie {
+    margin: auto 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(241, 250, 238, 1);
+    filter: brightness(110%);
+}
+
+.text {
+    text-align: center;
+}
+
+.list{
+    text-align: left;    
+}
